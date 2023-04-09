@@ -1,0 +1,39 @@
+.cripto-card {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    padding: 1rem;
+    transition: all .25s;
+}
+
+.cripto-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 12px 12px rgba(0, 0, 0, 0.35);
+}
+
+.cripto-card .info {
+    color: #D2D2D5
+}
+
+.cripto-card h2, .cripto-card a {
+    color: white;
+    text-decoration: none;
+}
+
+.cripto-card a {
+    text-decoration: none;
+}
+
+
+.label {
+    color:skyblue;
+}
+
+.positive {
+    color: greenyellow;
+}
+
+.negative {
+    color: red;
+}
